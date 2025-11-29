@@ -8,7 +8,7 @@ import store from './src/redux/store';
 
 export default function App() {
   useEffect(() => {
-    initDB();  // Yes, this must run once
+    initDB();
   }, []);
 
   return (
